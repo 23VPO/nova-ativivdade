@@ -1,0 +1,71 @@
+
+<html>
+<head>
+  <title>Minha Família</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, lightblue, lightgray);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      font-size: 30px;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+
+    p {
+      text-align: justify;
+      font-family: Arial, sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .odd {
+      font-size: 16pt;
+      font-family: Arial, sans-serif;
+      color: red;
+    }
+
+    .even {
+      font-size: 20pt;
+      font-family: Verdana, sans-serif;
+      color: blue;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Minha Família</h1>
+
+  <h2>Página Principal</h2>
+  <p>Um parágrafo sobre minha família.</p>
+  <img src="maior_numero_integrantes.jpg" alt="Foto com o maior número de integrantes">
+
+  <h2>Site Interno</h2>
+  <p id="p1" class="odd">Parágrafo 1 - Tamanho da fonte: 16pt, Tipo: Arial, Cor: Vermelha</p>
+  <p id="p2" class="even">Parágrafo 2 - Tamanho da fonte: 20pt, Tipo: Verdana, Cor: Azul</p>
+  <p id="p3" class="odd">Parágrafo 3 - Tamanho da fonte: 16pt, Tipo: Arial, Cor: Vermelha</p>
+  <p id="p4" class="even">Parágrafo 4 - Tamanho da fonte: 20pt, Tipo: Verdana, Cor: Azul</p>
+
+  <p>Curiosidades:</p>
+  <p>Algumas curiosidades sobre a minha família.</p>
+
+  <p>Para mais informações, visite nosso <a href="#" style="text-decoration: none;">site interno</a>.</p>
+</body>
+</html>
